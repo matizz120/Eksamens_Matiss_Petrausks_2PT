@@ -127,4 +127,7 @@ int main(){
     if(answer10 == 'c' || answer10 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'c' vai 'C', tad pieskaita punktu
     	score++;
 }
+	cout << endl;    
+	cout << "Jus atbildejat pareizi uz " << score << " jautajumiem no 10!" << endl;
+	cout << "Nepareizi atbildeti jautajumi - " << endl;
 }
