@@ -86,5 +86,14 @@ int main(){
     if(answer6 == 'c' || answer6 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
     	score++;
 }
-
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut7 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) 2" << endl; //Atbilşu variants
+    cout << "B) 4" << endl; //Atbilşu variants
+    cout << "C) Vairak pa 10" << endl; //Atbilşu variants
+    cout << "D) 10" << endl; //Atbilşu variants
+    cin >> answer7; //Ievada atbildi
+    if(answer7 == 'c' || answer7 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    	score++;
+}
 }
