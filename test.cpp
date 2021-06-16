@@ -116,4 +116,15 @@ int main(){
         if(answer9 == 'a' || answer9 == 'A'){ //Ja atbilde ir vienâda ar simbolu 'a' vai 'A', tad pieskaita punktu
     	score++;
 }
+
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut10 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) If Else" << endl; //Atbilşu variants
+    cout << "B) If" << endl; //Atbilşu variants
+    cout << "C) Switch Case" << endl; //Atbilşu variants
+    cout << "D) Else" << endl; //Atbilşu variants
+    cin >> answer10; //Ievada atbildi
+    if(answer10 == 'c' || answer10 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'c' vai 'C', tad pieskaita punktu
+    	score++;
+}
 }
