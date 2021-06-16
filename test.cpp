@@ -146,4 +146,9 @@ if(answer3 == 'd' || answer3 == 'D'){ //Ja atbilde ir pareiza, tad neko neizvada
 }else if (answer3 != 'd' || answer3 != 'D'){ //Ja atbilde ir nepareiza, tad izvada nepareizi atbildetu jautajumu
 	cout<< jaut3 << endl;
 }
+if(answer4 == 'b' || answer4 == 'B'){ //Ja atbilde ir pareiza, tad neko neizvada
+	cout<< endl;
+}else if (answer4 != 'b' || answer4 != 'B'){ //Ja atbilde ir nepareiza, tad izvada nepareizi atbildetu jautajumu
+	cout<< jaut4 << endl;
+}
 }
