@@ -83,7 +83,7 @@ int main(){
     cout << "C) Aritmetisks if sazarojums" << endl; //Atbilşu variants
     cout << "D) Switch Case sazarojums" << endl; //Atbilşu variants
     cin >> answer6; //Ievada atbildi
-    if(answer6 == 'c' || answer6 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    if(answer6 == 'c' || answer6 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'c' vai 'C', tad pieskaita punktu
     	score++;
 }
 	cout << endl; //Pârliek uz nâkamo rindkopu
@@ -93,7 +93,7 @@ int main(){
     cout << "C) Vairak pa 10" << endl; //Atbilşu variants
     cout << "D) 10" << endl; //Atbilşu variants
     cin >> answer7; //Ievada atbildi
-    if(answer7 == 'c' || answer7 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    if(answer7 == 'c' || answer7 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'c' vai 'C', tad pieskaita punktu
     	score++;
 }
 	cout << endl; //Pârliek uz nâkamo rindkopu
@@ -103,7 +103,17 @@ int main(){
     cout << "C) Cikla nosacijuma" << endl; //Atbilşu variants
     cout << "D) Mainigaja" << endl; //Atbilşu variants
     cin >> answer8; //Ievada atbildi
-        if(answer8 == 'b' || answer8 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+        if(answer8 == 'b' || answer8 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'b' vai 'B', tad pieskaita punktu
+    	score++;
+}
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut9 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Ne" << endl; //Atbilşu variants
+    cout << "B) Ja" << endl; //Atbilşu variants
+    cout << "C) Varbut" << endl; //Atbilşu variants
+    cout << "D) Nezinu" << endl; //Atbilşu variants
+    cin >> answer9; //Ievada atbildi
+        if(answer9 == 'a' || answer9 == 'A'){ //Ja atbilde ir vienâda ar simbolu 'a' vai 'A', tad pieskaita punktu
     	score++;
 }
 }
