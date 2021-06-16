@@ -130,4 +130,11 @@ int main(){
 	cout << endl;    
 	cout << "Jus atbildejat pareizi uz " << score << " jautajumiem no 10!" << endl;
 	cout << "Nepareizi atbildeti jautajumi - " << endl;
+	
+if(answer1 == 'a' || answer1 == 'A'){ //Ja atbilde ir pareiza, tad neko neizvada
+	cout<< endl;
+}else if (answer1 != 'a' || answer1 != 'A'){ //Ja atbilde ir nepareiza, tad izvada nepareizi atbildetu jautajumu
+	cout<< jaut1 << endl;
+}
+
 }
