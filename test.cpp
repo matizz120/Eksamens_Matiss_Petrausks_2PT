@@ -66,4 +66,15 @@ int main(){
         if(answer4 == 'b' || answer4 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'b' vai 'B', tad pieskaita punktu
     	score++;
 }
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut5 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Programma apturas" << endl; //Atbilşu variants
+    cout << "B) Izpildas noteikta programmas rinda ieks if/switch nosacijuma" << endl; //Atbilşu variants
+    cout << "C) Tostermaizes izcepjas" << endl; //Atbilşu variants
+    cout << "D) Izpildas noteikta programmas rinda arpus if/switch nosacijuma" << endl; //Atbilşu variants
+    cin >> answer5; //Ievada atbildi
+        if(answer5 == 'd' || answer5 == 'D'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    	score++;
+}
+
 }
