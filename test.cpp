@@ -76,5 +76,15 @@ int main(){
         if(answer5 == 'd' || answer5 == 'D'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
     	score++;
 }
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut6 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) If sazarojums" << endl; //Atbilşu variants
+    cout << "B) Else if sazarojums" << endl; //Atbilşu variants
+    cout << "C) Aritmetisks if sazarojums" << endl; //Atbilşu variants
+    cout << "D) Switch Case sazarojums" << endl; //Atbilşu variants
+    cin >> answer6; //Ievada atbildi
+    if(answer6 == 'c' || answer6 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    	score++;
+}
 
 }
