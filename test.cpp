@@ -25,4 +25,15 @@ int main(){
     string jaut8 = "Kur sazarojuma konstrukcija tiek izverteta?"; //8. Jautâjums
     string jaut9 = "Vai sazarojuma konstrukcija tikai sastav no if strukturas?"; //9. Jautâjums
     string jaut10 = "Kursh no sazarojumu konstrukcijam ir visertakais?"; //10. Jautâjums 
+    
+    cout << endl;
+    cout << jaut1 << endl << endl;
+    cout << "A) Nosacijuma apgalvojums" << endl;
+    cout << "B) Tekstdatnes izvade" << endl;
+    cout << "C) Simbolu virkne" << endl;
+    cout << "D) Divdimensiju masivs" << endl;
+    cin >> answer1;
+        if(answer1 == 'a' || answer1 == 'A'){
+    	score++;
+}
 }
