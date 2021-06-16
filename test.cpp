@@ -96,4 +96,14 @@ int main(){
     if(answer7 == 'c' || answer7 == 'C'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
     	score++;
 }
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut8 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Arpus nosacijuma iekavam" << endl; //Atbilşu variants
+    cout << "B) Ieks nosacijuma iekavam" << endl; //Atbilşu variants
+    cout << "C) Cikla nosacijuma" << endl; //Atbilşu variants
+    cout << "D) Mainigaja" << endl; //Atbilşu variants
+    cin >> answer8; //Ievada atbildi
+        if(answer8 == 'b' || answer8 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
+    	score++;
+}
 }
