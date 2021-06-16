@@ -176,5 +176,10 @@ if(answer9 == 'a' || answer9 == 'A'){ //Ja atbilde ir pareiza, tad neko neizvada
 }else if (answer9 != 'a' || answer9 != 'A'){ //Ja atbilde ir nepareiza, tad izvada nepareizi atbildetu jautajumu
 	cout<< jaut9 << endl;
 }
-
+if(answer10 == 'c' || answer10 == 'C'){ //Ja atbilde ir pareiza, tad neko neizvada
+	cout<< endl;
+}else if (answer10 != 'c' || answer10 != 'C'){ //Ja atbilde ir nepareiza, tad izvada nepareizi atbildetu jautajumu
+	cout<< jaut10 << endl;
+}
+ return 0;
 }
