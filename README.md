@@ -1,6 +1,9 @@
+![Programma](https://miro.medium.com/max/313/1*Hz_NnfqNxEAkYQ_CRfrvfA.png)
 # Sazarojuma konstrukcija
-### Pârbaudes tests par sazarojuma konstrukciju, piesaistîts pârbaudes testa testapiemçri/testa şurnâls.
+### PÄrbaudes tests par sazarojuma konstrukciju, piesaistÄ«ts pÄrbaudes testa testapiemÄ“ri/testa Å¾urnÄls.
 
-##### Pârbaudes tests - sastâv no 10 jautâjumiem, katram jautâjumam ir tikai 1 pareiza atbilde. Visas nepareizâs atbildes tiks izdrukâtas testa beigâs.
+##### PÄrbaudes tests - sastÄv no 10 jautÄjumiem, katram jautÄjumam ir tikai 1 pareiza atbilde. Visas nepareizÄs atbildes tiks izdrukÄtas testa beigÄs.
 
-##### Testapiemçri/Testa şurnâls - sastâv no 20 testapiemçriem, kuri norâda testçğanas nosacîjumus, un ar testçğanas şurnâlu - testçğanas gaitu
+##### TestapiemÄ“ri/Testa Å¾urnÄls - sastÄv no 20 testapiemÄ“riem, kuri norÃ¢da testÄ“Å¡anas nosacÄ«jumus, un ar testÄ“Å¡anas Å¾urnÄlu - testÄ“Å¡anas gaitu
+
+BilÅ¾u atsauce - https://janalmazora.medium.com/how-to-prevent-using-if-else-statements-in-your-code-7e05e43afde
