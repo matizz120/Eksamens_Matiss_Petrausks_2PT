@@ -36,4 +36,14 @@ int main(){
         if(answer1 == 'a' || answer1 == 'A'){
     	score++;
 }
+	cout << endl;
+    cout << jaut2 << endl;
+    cout << "A) Vestuli" << endl;
+    cout << "B) Boolean nosacijumu" << endl;
+    cout << "C) Simbolu virkni" << endl;
+    cout << "D) Programmas nosaukumu" << endl;
+    cin >> answer2;
+        if(answer2 == 'b' || answer2 == 'B'){
+    	score++;
+}
 }
