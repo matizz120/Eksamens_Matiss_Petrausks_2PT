@@ -26,35 +26,44 @@ int main(){
     string jaut9 = "Vai sazarojuma konstrukcija tikai sastav no if strukturas?"; //9. Jautâjums
     string jaut10 = "Kursh no sazarojumu konstrukcijam ir visertakais?"; //10. Jautâjums 
     
-    cout << endl;
-    cout << jaut1 << endl << endl;
-    cout << "A) Nosacijuma apgalvojums" << endl;
-    cout << "B) Tekstdatnes izvade" << endl;
-    cout << "C) Simbolu virkne" << endl;
-    cout << "D) Divdimensiju masivs" << endl;
-    cin >> answer1;
-        if(answer1 == 'a' || answer1 == 'A'){
+    cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut1 << endl << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Nosacijuma apgalvojums" << endl; //Atbilşu variants
+    cout << "B) Tekstdatnes izvade" << endl; //Atbilşu variants
+    cout << "C) Simbolu virkne" << endl; //Atbilşu variants
+    cout << "D) Divdimensiju masivs" << endl; //Atbilşu variants
+    cin >> answer1; //Ievada atbildi
+        if(answer1 == 'a' || answer1 == 'A'){ //Ja atbilde ir vienâda ar simbolu 'a' vai 'A', tad pieskaita punktu
     	score++;
 }
-	cout << endl;
-    cout << jaut2 << endl;
-    cout << "A) Vestuli" << endl;
-    cout << "B) Boolean nosacijumu" << endl;
-    cout << "C) Simbolu virkni" << endl;
-    cout << "D) Programmas nosaukumu" << endl;
-    cin >> answer2;
-        if(answer2 == 'b' || answer2 == 'B'){
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut2 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Vestuli" << endl; //Atbilşu variants
+    cout << "B) Boolean nosacijumu" << endl; //Atbilşu variants
+    cout << "C) Simbolu virkni" << endl; //Atbilşu variants
+    cout << "D) Programmas nosaukumu" << endl; //Atbilşu variants
+    cin >> answer2; //Ievada atbildi
+        if(answer2 == 'b' || answer2 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'b' vai 'B', tad pieskaita punktu
     	score++;
 }
-
-	cout << endl;
-    cout << jaut3 << endl;
-    cout << "A) Programma aizveras" << endl;
-    cout << "B) Izpildas noteikta programmas rinda arpus if/switch nosacijuma" << endl;
-    cout << "C) Programma izdzesas" << endl;
-    cout << "D) Izpildas noteikta programmas rinda ieks if/switch nosacijuma" << endl;
-    cin >> answer3;
-        if(answer3 == 'd' || answer3 == 'D'){
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut3 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) Programma aizveras" << endl; //Atbilşu variants
+    cout << "B) Izpildas noteikta programmas rinda arpus if/switch nosacijuma" << endl; //Atbilşu variants
+    cout << "C) Programma izdzesas" << endl; //Atbilşu variants
+    cout << "D) Izpildas noteikta programmas rinda ieks if/switch nosacijuma" << endl; //Atbilşu variants
+    cin >> answer3; //Ievada atbildi
+        if(answer3 == 'd' || answer3 == 'D'){ //Ja atbilde ir vienâda ar simbolu 'd' vai 'D', tad pieskaita punktu
     	score++;
-}	
+}
+	cout << endl; //Pârliek uz nâkamo rindkopu
+    cout << jaut4 << endl; //Pievieno jautâjumu, pârliek uz nâkamo rindkopu
+    cout << "A) 2" << endl; //Atbilşu variants
+    cout << "B) 3" << endl; //Atbilşu variants
+    cout << "C) 4" << endl; //Atbilşu variants
+    cout << "D) 5" << endl; //Atbilşu variants
+    cin >> answer4; //Ievada atbildi
+        if(answer4 == 'b' || answer4 == 'B'){ //Ja atbilde ir vienâda ar simbolu 'b' vai 'B', tad pieskaita punktu
+    	score++;
+}
 }
