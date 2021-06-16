@@ -46,4 +46,15 @@ int main(){
         if(answer2 == 'b' || answer2 == 'B'){
     	score++;
 }
+
+	cout << endl;
+    cout << jaut3 << endl;
+    cout << "A) Programma aizveras" << endl;
+    cout << "B) Izpildas noteikta programmas rinda arpus if/switch nosacijuma" << endl;
+    cout << "C) Programma izdzesas" << endl;
+    cout << "D) Izpildas noteikta programmas rinda ieks if/switch nosacijuma" << endl;
+    cin >> answer3;
+        if(answer3 == 'd' || answer3 == 'D'){
+    	score++;
+}	
 }
